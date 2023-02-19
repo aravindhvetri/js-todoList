@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    gap:5%;
+    justify-content: center;
+    margin:5%;
+    background-color:pink;
+    padding:30px;
+    font-family: 'Shantell Sans', cursive;
+}
+.head-1{
+    text-align: center;
+    color:blue;
+}
+.lab{
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    color:aqua;
+    font-weight: 700;
+    border:1px solid transparent;
+    font-size: 15px;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 5px 5px #00000017 ;
+}
+#input{
+    border:5px solid blue;
+    border-radius: 10px;
+}
+.head-2{
+    color:#fff;
+    font-size:25px;
+}
+.fa-edit, .fa-trash{
+    color:red;
+}
