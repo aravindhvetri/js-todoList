@@ -9,12 +9,16 @@
 }
 .head-1{
     text-align: center;
-    color:blue;
+   color: blue;
+}
+.head{
+    text-align: center;
+    font-weight: 600;
 }
 .lab{
     color:black;
     font-weight: 600;
-    font-size: 20px;
+    text-align: center;
 }
 button{
     background-color: blue;
@@ -26,7 +30,7 @@ button{
     border-radius: 5px;
 }
 button:hover{
-    box-shadow: 5px 5px #00000017 ;
+    box-shadow: 5px 5px #0000006b ;
 }
 #input{
     border:5px solid blue;
@@ -39,3 +43,30 @@ button:hover{
 .fa-edit, .fa-trash{
     color:red;
 }
+.image-1{
+    box-shadow: 0 0 20px chocolate;
+    border-radius: 20px;
+}
+.div{
+    display: flex;
+    gap:10%;
+    border:5px solid blue;
+    border-radius: 10px;
+    padding:10px 40px;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: lightblue;
+}
+.options i{
+    font-size: 20px;
+    padding-right:10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+ 
